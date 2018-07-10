@@ -4,7 +4,7 @@ class Problem14502 {
 
     static int Answer;
 
-    public static void main(String args[]) throws Exception {
+    public void solve() throws Exception {
         Scanner sc = new Scanner(System.in);
         //Scanner sc = new Scanner(new FileInputStream("input.txt"));
 
