@@ -26,8 +26,8 @@ public class Main {
             dragonCurve(curves, d, g, 0);
         }
         // check curves in square
-        for (int i = 0; i < 101; i++) {
-            for (int j = 0; j < 101; j++) {
+        for (int i = 0; i < 100; i++) {
+            for (int j = 0; j < 100; j++) {
                 if (grid[i][j] == 1 && grid[i + 1][j] == 1 && grid[i][j + 1] == 1 && grid[i + 1][j + 1] == 1) {
                     Answer++;
                 }
